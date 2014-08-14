@@ -35,9 +35,6 @@
   <properties>
     <aspectjrt.version>1.7.3</aspectjrt.version>
     <aspectj-maven-plugin.version>1.5</aspectj-maven-plugin.version>
-
-    <cdh4-hadoop.version>${hadoop.version}</cdh4-hadoop.version>
-    <cdh4-hbase.version>${hbase.version}</cdh4-hbase.version>
   </properties>
 
   <build>
@@ -130,15 +127,15 @@
       <artifactId>hadoop-client</artifactId>
       <scope>provided</scope>
       <optional>true</optional>
-      <version>${cdh4-hadoop.version}</version>
+      <version>${hadoop.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.hbase</groupId>
-      <artifactId>hbase</artifactId>
+      <artifactId>hbase-server</artifactId>
       <scope>provided</scope>
       <optional>true</optional>
-      <version>${cdh4-hbase.version}</version>
+      <version>${hbase.version}</version>
     </dependency>
 
   </dependencies>

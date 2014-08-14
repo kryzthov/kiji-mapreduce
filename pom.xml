@@ -28,7 +28,7 @@
   <parent>
     <groupId>org.kiji.pom</groupId>
     <artifactId>root-pom</artifactId>
-    <version>1.2.0</version>
+    <version>1.2.1-SNAPSHOT</version>
   </parent>
 
   <name>KijiMR top-level project</name>
@@ -49,7 +49,6 @@
     <module>cdh4mr1-bridge</module>
     <module>hadoop2-hbase96-bridge</module>
     <module>kiji-mapreduce</module>
-    <module>kiji-mapreduce-cassandra</module>
     <module>profiling</module>
     <module>kiji-mapreduce-archetype</module>
   </modules>
